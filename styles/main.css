@@ -74,6 +74,9 @@ input[type="submit"] {
   color: white;
 }
 
+.listsub {
+  padding-top: 2rem;
+}
 /*********** PRODUCTS SECTION ***********/
 
 section {
@@ -109,5 +112,7 @@ h3 {
 }
 
 .scarfitem img {
+   max-width: 15rem;
    max-height: 20rem;
+   padding: 1rem .1rem;
 }
