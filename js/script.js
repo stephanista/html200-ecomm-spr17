@@ -1,3 +1,9 @@
+
+function submitEmail() {
+  var email = document.getElementById('email').value;
+  alert("Thank you for adding "  + email + " to our mailing list! We are happy to have you!");
+}
+
 var products = [
   {
     "name": "Reversible Plaid",
@@ -48,4 +54,3 @@ var products = [
     "imageTitle": "twill.jpg"
   }
 ]
-

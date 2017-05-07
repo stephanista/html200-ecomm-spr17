@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="styles/main.css">
 
   <script src="https://use.fontawesome.com/214c25a02c.js"></script>
+  <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -35,10 +37,10 @@
   </header>
 
   <main>
-    <aside>
-      <form>
+    <aside class="listsub">
+      <form name="subcribe" onsubmit="submitEmail()">
         <label>Sign up for our mailing list:
-          <input type="email" name="email">
+          <input type="email" name="email" id="email">
         </label>
 
         <input type="submit" value="Submit">
