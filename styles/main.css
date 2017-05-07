@@ -82,6 +82,8 @@ input[type="submit"] {
 
 section {
   padding: 0 .75rem;
+  width: 70%;
+  margin: auto;
 }
 
 h2 {
@@ -100,21 +102,28 @@ h3 {
 .prodcont {
   width: 90%;
   margin: auto;
-  border: solid 1px rgba(189, 63, 191, 0.62);
+  border: solid 1px #3D7FCF;
+  border-radius: .5rem;
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .scarfitem {
+  width: 50%;
   background: lightgrey;
   padding: 1rem;
-  max-width: 20%;
-  margin-top: 1rem;
+  margin: .5rem;
   text-align: center;
+  border: solid 1px #3D7FCF;
+  border-radius: .5rem;
 }
 
 .scarfitem img {
-   max-width: 100%;
-   padding: 1rem .1rem;
+   width: 50%;
+   border: solid 1px #3D7FCF;
+   border-radius: .5rem;
+   margin-top: 1rem;
+   margin-bottom: .5rem;
 }
