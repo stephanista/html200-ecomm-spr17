@@ -1,6 +1,7 @@
 
 function submitEmail() {
   var email = document.getElementById('email').value;
+  console.log("Thank you for adding " + email + " to our mailing list! We are happy to have you!");
   alert("Thank you for adding "  + email + " to our mailing list! We are happy to have you!");
 }
 
