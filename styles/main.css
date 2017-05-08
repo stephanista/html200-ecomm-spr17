@@ -82,7 +82,7 @@ input[type="submit"] {
 
 section {
   padding: 0 .75rem;
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 
@@ -100,7 +100,7 @@ h3 {
 }
 
 .prodcont {
-  width: 90%;
+  width: 100%;
   margin: auto;
   border: solid 1px #3D7FCF;
   border-radius: .5rem;
@@ -111,7 +111,7 @@ h3 {
 }
 
 .scarfitem {
-  width: 50%;
+  width: 30%;
   background: lightgrey;
   padding: 1rem;
   margin: .5rem;
@@ -121,7 +121,7 @@ h3 {
 }
 
 .scarfitem img {
-   width: 50%;
+   width: 70%;
    border: solid 1px #3D7FCF;
    border-radius: .5rem;
    margin-top: 1rem;
