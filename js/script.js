@@ -59,15 +59,42 @@ var products = [
 
 cart = []
 
+var cart = [];
 
+// 2. add an [Add] button to every item
+
+// 3. add class to the product name, description, and price.  Why are we using class instead of id?  We have multiple products, so we can't have multiple product elements with the SAME id.
+
+// 4. add a click event to every [add] button.  jquery is the easiest way to do this.
+
+// find all things with .add class and wire up this anonymous function
 $('.add').click(function(event){
+
+  // find values using jquery and the class name
+  // event - given parameter
+  // target - the thing that got clicked (the button)
+  // parentElement - the parent of the button, a div tag that holds the product info
   var name = $(event.target.parentElement).find('.name').text();
   var description = $(event.target.parentElement).find('.description').text();
   var price = $(event.target.parentElement).find('.price').text();
+
+  // alternatively you could use this.parentElement.  "this" represents the button that was clicked.
+
+  // add the item to array
   cart.push({
     name: name,
     description: description,
-    price: price
-  });
+    price: price});
+
   console.log(cart);
+  refreshBadge();
 });
+
+// show count next to cart
+function refreshBadge() {
+  /* show count in badge */
+  var badge = $('header').find('.badge');
+  if (cart) {
+    badge.text(cart.length);
+  }
+}
