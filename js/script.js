@@ -55,3 +55,12 @@ var products = [
     "imageTitle": "twill.jpg"
   }
 ]
+
+
+cart = []
+
+function addCart() {
+  event.preventDefault();
+  var purchase = figureouthowtogetobjecthere;
+  cart.push(purchase);
+}
