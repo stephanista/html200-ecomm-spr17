@@ -134,12 +134,12 @@ button {
 
 /********Media Query***********/
 
-
+/*forces scarf items to stay large enough to display text correctly at smaller screen sizes*/
 @media (max-width: 375px) {
   .scarfitem { min-width: 7rem; }
 }
 
-
+/*forces scarf items at larger screen sizes to stay aesthetically small enough to wrap and not just get bigger and bigger*/
 @media (min-width: 601px) {
   .scarfitem { max-width: 20rem; }
 }
