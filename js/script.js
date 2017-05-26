@@ -62,12 +62,12 @@ function addCart(n){
   cart.push(products[n]);
   console.log(cart);
   var count = document.getElementById("itemnum");
-  count.innerHTML = cart.length;
+  count.innerHTML = " " + cart.length;
 }
 
 function remCart(n){
   cart.splice(n, 1);
   console.log(cart);
   var count = document.getElementById("itemnum");
-  count.innerHTML = cart.length;
+  count.innerHTML = " " + cart.length;
 }
