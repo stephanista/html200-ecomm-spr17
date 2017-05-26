@@ -130,11 +130,12 @@ h3 {
 
 button {
   cursor: pointer;
+  margin-top: .5rem;
 }
 
 /********Media Query***********/
 
-/*forces scarf items to stay large enough to display text correctly at smaller screen sizes*/
+/*forces scarf items to stay large enough to display text correctly at smaller screen sizes. 375 px chosen due to words bleeding out of scarfitem boxes below that width*/
 @media (max-width: 375px) {
   .scarfitem { min-width: 7rem; }
 }
