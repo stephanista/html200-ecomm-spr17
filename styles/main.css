@@ -131,3 +131,15 @@ h3 {
 button {
   cursor: pointer;
 }
+
+/********Media Query***********/
+
+
+@media (max-width: 375px) {
+  .scarfitem { min-width: 7rem; }
+}
+
+
+@media (min-width: 601px) {
+  .scarfitem { max-width: 20rem; }
+}
